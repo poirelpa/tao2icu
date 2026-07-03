@@ -14,3 +14,9 @@ jobs:
         server:  poirelpa.whf.bz
         username:  poirelpa@poirelpa.whf.bz
         password: ${{ secrets.ftp_password }}
+        dry-run: true
+        exclude: |
+          **/.git*
+          **/.devcontainer
+          **/.vscode
+          **/*.md
