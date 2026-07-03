@@ -15,7 +15,6 @@ jobs:
         username:  poirelpa@poirelpa.whf.bz
         password: ${{ secrets.ftp_password }}
         server-dir: public_html/tao2icu/
-        dry-run: true
         exclude: |
           **/.git*
           **/.git*/**
