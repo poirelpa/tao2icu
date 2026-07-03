@@ -1,6 +1,7 @@
 <?php
 
-$ics = file_get_contents('https://beta.trainasone.com/calendar/b6553640d8a7dde3cf340f9f1780c94da8d76f50.ics');
+$id = $_GET['id'];
+$ics = file_get_contents("https://beta.trainasone.com/calendar/$id.ics");
 $ics = str_replace("\r\n ",'',$ics);
 $ics = str_replace('*','-',$ics);
 $ics = str_replace('/km','/km Pace',$ics);
