@@ -20,5 +20,7 @@ jobs:
           **/.git*
           **/.git*/**
           **/.devcontainer
+          **/.devcontainer/**
           **/.vscode
+          **/.vscode/**
           **/*.md
