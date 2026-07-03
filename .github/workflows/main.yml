@@ -18,6 +18,7 @@ jobs:
         dry-run: true
         exclude: |
           **/.git*
+          **/.git*/**
           **/.devcontainer
           **/.vscode
           **/*.md
